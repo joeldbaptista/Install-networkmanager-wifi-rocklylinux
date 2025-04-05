@@ -40,7 +40,7 @@ dnf --disablerepo=\* --enablerepo=usb install NetworkManager-wifi
 nmcli d w l
 ```
 
-5. Finally, connect to wifi.
-
+5. Connect to wifi.
+6. Remove `/etc/yum.repo.d/usb.repo`
 
 
