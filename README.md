@@ -41,6 +41,6 @@ nmcli d w l
 ```
 
 5. Connect to wifi.
-6. Remove `/etc/yum.repo.d/usb.repo`
+6. Remove `/etc/yum.repo.d/usb.repo` and umount `/mnt/usb`
 
 
