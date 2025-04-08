@@ -36,9 +36,12 @@ dnf --disablerepo=\* --enablerepo=usb install NetworkManager-wifi
 
 4. Test
 
+Restart the NetworkManager service (it should be running by now), and then:
+
 ```
 nmcli d w l
 ```
+It should list the available wifi nets.
 
 5. Connect to wifi.
 6. Remove `/etc/yum.repo.d/usb.repo` and umount `/mnt/usb`
